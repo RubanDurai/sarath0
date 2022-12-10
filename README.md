@@ -73,21 +73,11 @@ python3 bot.py
 </details>
 
 
-## Commands
+## AuthUsers Commands
 ```
 - /logs - to get the rescent errors
-- /stats - to get status of files in db.
-- /filter - add manual filters
-- /filters - view filters
-- /connect - connect to PM.
-- /disconnect - disconnect from PM
-- /del - delete a filter
-- /delall - delete all filters
 - /deleteall - delete all index(autofilter)
 - /delete - delete a specific file from index.
-+ /info - get user info
-- /id - get tg ids.
-- /imdb - fetch info from imdb.
 • /users - to get list of my users and ids.
 • /chats - to get list of the my chats and ids 
 • /index  - to add files from a channel
@@ -99,11 +89,27 @@ python3 bot.py
 • /channel - to get list of total connected channels
 • /broadcast - to broadcast a message to all Eva Maria users
 • /batch - to create link for multiple posts
-- /link - to create link for one post
+* /link - to create link for one post
+```
+## Chat Admin Commands
+```
+* /filter - add manual filters
+* /filters - view filters
+* /connect - connect to PM.
+* /disconnect - disconnect from PM
+* /del - delete a filter
+* /delall - delete all filters
+```
+## User Commands
+```
+* /stats - to get status of files in db.
+* /info - get user info
+* /id - get tg ids.
+* /imdb - fetch info from imdb.
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/EvaMariaSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeamEvamaria)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/TAMILMIRROR)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/JOKERBOTS)
 
 ## Credits 
 * [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
