@@ -44,8 +44,10 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 
 ## Deploy
 You can deploy this bot anywhere.
-
-<i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
+<p align="center">
+  <a href="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA">
+        <img src="https://img.shields.io/badge/𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄-red?logo=youtube" width="200">
+  </p>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
