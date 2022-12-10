@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me from working here ! If you want to know more about it contact support..</b>',
+                text='<b>CHAT NOT ALLOWED 🐞\n\n𝙼𝚈 𝙰𝙳𝙼𝙸𝙽𝚂 𝙷𝙰𝚂 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃𝙴𝙳 𝙼𝙴 𝙵𝚁𝙾𝙼 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙷𝙴𝚁𝙴 !𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙾 𝙺𝙽𝙾𝚆 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙸𝚃 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙾𝚆𝙽𝙴𝚁...</b>',
                 reply_markup=reply_markup,
             )
 
@@ -54,8 +54,8 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/ec11bb1669ada8b7d2b35.mp4",                                               
-                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› [𝙏𝙖𝙢𝙞𝙡𝘿𝙪𝙗_𝙇𝙞𝙣𝙠𝙯𝙯](https://t.me/+tjyLLBPSp6FkNjVl)</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('➡️ɢʀᴏᴜᴘ ʀᴜʟᴇs⬅️', url='https://telegra.ph/GROUP-RULES-08-21') ] ] )
+                                                 caption=f'<b>HEY , {u.mention} 👋🏻\n WELCOME TO OUR GROUP {message.chat.title}\n\n YOU CAN FIND MOVIES / SERIES ETC.. \n\n <b> ≫ 𝙵𝙾𝙻𝙻𝙾𝚆 𝙶𝚁𝙾𝚄𝙿 𝚁𝚄𝙻𝙴𝚂 </b>\n <b> ≫ 𝙼𝙰𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻ʟ ›› [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴](https://t.me/TN_LINKZZ)</b>',
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('➡️ ᘜᖇOᑌᑭ ᖇᑌᒪᗴՏ ⬅️', url='https://telegra.ph/GROUP-RULES-08-21') ] ] )
                 )
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
