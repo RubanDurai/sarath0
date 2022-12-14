@@ -74,7 +74,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-        InlineKeyboardButton('⚡ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⚡', url='https://t.me/{SUPPORT_CHAT}'),
+        InlineKeyboardButton('⚡ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⚡', url='https://t.me/TNROCKERS2021'),
         InlineKeyboardButton('💞 𝚂𝙷𝙰𝚁𝙴 💞', url="https://t.me/share/url?url=https://t.me/JOKERBOTS")
         ]
     )
@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('ᴍʏ ᴏᴡɴᴇʀ 🌿', url='https://tx.me/TamilDubAdmin_bot'),
+            InlineKeyboardButton('ᴍʏ ᴏᴡɴᴇʀ 🌿', url='https://t.me/RUBANDURAI27'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ ᴍᴇ ☺️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -445,7 +445,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("You Entered About Me")
         buttons = [[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ 🤖', url='https://tx.me/TamilDub_Linkzz'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ 🤖', url='https://t.me/TN_LINKZZ'),
             InlineKeyboardButton('ꜱᴛᴀᴛᴜꜱ 📈', callback_data='stats')
         ], [
             InlineKeyboardButton('👩‍🦯 𝙱𝙰𝙲𝙺', callback_data='start'),
@@ -672,7 +672,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
 
     btn.append(
-    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://tx.me/TamilDub_Linkzz/7')]
+    [InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/TamilDub_Linkzz/7')]
 )
 
     
@@ -680,7 +680,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('🌟 ᴄʜᴀɴɴᴇʟ', url='https://tx.me/TamilDub_Linkzz'),
+            InlineKeyboardButton('🌟 ᴄʜᴀɴɴᴇʟ', url='https://t.me/TN_Linkzz'),
             InlineKeyboardButton('💞 sʜᴀʀᴇ', url="https://t.me/share/url?url=Hi+bro%2C%0D%0AThis+bot+is+very+cool+%40TamilMovies_filter_bot+all+language+movies+are+available+in+the+bot+just+add+the+bot+to+your+groups+and+make+it+admin+it+will+start+provide+movies+in+your+groups+click+this+link+to+add+the+bot+%F0%9F%91%89+https%3A%2F%2Ft.me%2FTamilMovies_filter_bot%3Fstartgroup%3Dtrue")
         ]
     )
